@@ -26,7 +26,7 @@
 
 .info__name-input {
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
     gap: 18px;
     margin: 0;
 }
@@ -91,15 +91,6 @@
     margin: 0;
 }
 
-.profile {
-    display: grid;
-    grid-template-columns: auto 1fr  auto;
-    grid-template-rows: 1fr;
-    padding: 40px 0 0 0;
-    margin: 0;
-    grid-gap: 30px;
-    width: 880px;
-}
 
 @media screen and (max-width: 880px) and (min-width: 581px) {
     .profile {
