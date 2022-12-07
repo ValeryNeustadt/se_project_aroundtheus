@@ -5,8 +5,7 @@
     padding: 40px 0 0 0;
     margin: 0;
     grid-gap: 30px;
-    width: 880px;   
-
+    width: 880px;
 }
 
 
@@ -17,22 +16,19 @@
 }
 
 .profile__info {
- 
     place-self: center;
     justify-self: start;
     display:flex;
-    flex-direction: column;    
+    flex-direction: column;
     gap: 16px;
 }
 
 
 .info__name-input {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
     gap: 18px;
     margin: 0;
-    
 }
 
 .info__name {
@@ -51,7 +47,7 @@
     width: 24px;
     height: 24px;
     border: 1px solid #ffffff;
-    margin: 0;   
+    margin: 0;
     background: none;
     background-image: url(../images/write-icon.svg);
     background-repeat: no-repeat;
@@ -64,7 +60,6 @@
     justify-self: end;
     place-self: center;
     margin: 0;
-    
 }
 
 .add-button { 
@@ -86,8 +81,6 @@
     opacity: 60%;
 }
 
-
-
 .info__profession {
     font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
@@ -105,7 +98,7 @@
     padding: 40px 0 0 0;
     margin: 0;
     grid-gap: 30px;
-    width: 880px;   
+    width: 880px;
 }
 
 @media screen and (max-width: 880px) and (min-width: 581px) {
@@ -113,15 +106,13 @@
         grid-template-columns: 120px auto;
         grid-template-rows: auto auto;
         width: 581px;
-
     }
 
     .profile__add-button {
         grid-column: 2/2;
         grid-row: 2/2;
-        justify-self: end;   
+        justify-self: end;
     }
-
 }
 @media screen and (max-width: 581px) {
     .profile {
@@ -136,8 +127,8 @@
     }
 
     .profile__info {
-        justify-self: center;       
-        gap: 16px;    
+        justify-self: center;
+        gap: 16px;
     }
 
     .info__name {
@@ -158,6 +149,6 @@
     .info__addit-button {
         width: 18px;
         height: 18px;
-        margin: 0; 
+        margin: 0;
     }
 }

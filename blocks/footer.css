@@ -18,7 +18,6 @@
     .footer {
         width: 581px;
     }
-
 }
 
 @media screen and (max-width: 581px) {
@@ -27,7 +26,6 @@
     }
 
     .footer_paragraph {
-
         font-size: 14px;
         line-height: 16.94px;
     }
