@@ -22,34 +22,48 @@
     justify-self: start;
     display:flex;
     flex-direction: column;    
-    gap: 16px;    
+    gap: 16px;
+}
+
+
+.info__name-input {
+    display: flex;
+    justify-content: space-between;
+    
+    gap: 18px;
+    margin: 0;
+    
 }
 
 .info__name {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 18px;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+    color: #ffffff;
+    align-self:center;
+    margin: 0;
 }
-
-
 
 .info__addit-button {
     align-self:center;
     width: 24px;
     height: 24px;
     border: 1px solid #ffffff;
-    margin: 6px 0 0 0;   
+    margin: 0;   
     background: none;
     background-image: url(../images/write-icon.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 10px 10px;
+    font-size: 0;
 }
 
 .profile__add-button {
     justify-self: end;
     place-self: center;
+    margin: 0;
     
 }
 
@@ -64,24 +78,15 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 22px 22px;
+    vertical-align:text-bottom;
+    font-size: 0;
 }
 
 .button:hover {
     opacity: 60%;
 }
 
-.info__name {
-    font-family: 'Inter', 'Arial', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 42px;
-    line-height: 48px;
-    color: #ffffff;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    margin: 0;
-}
+
 
 .info__profession {
     font-family: 'Inter', 'Arial', sans-serif;
@@ -90,9 +95,6 @@
     font-size: 18px;
     line-height: 21.78px;
     color: #ffffff;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
     margin: 0;
 }
 
@@ -134,26 +136,28 @@
     }
 
     .profile__info {
-
-        justify-self: center;
-       
+        justify-self: center;       
         gap: 16px;    
     }
 
     .info__name {
-
         font-size: 22px;
         line-height: 26.63px;
     }
 
     .info__profession {
         text-align: center;
-        font-weight: 400;
         font-size: 14px;
         line-height: 16.94px;
     }
 
     .profile__avatar {
         justify-self: center;
+    }
+
+    .info__addit-button {
+        width: 18px;
+        height: 18px;
+        margin: 0; 
     }
 }
