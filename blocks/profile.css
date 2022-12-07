@@ -24,7 +24,7 @@
 }
 
 
-.info__name-title {
+.profile__name-title {
     display: flex;
     justify-content: space-between;
     gap: 18px;
