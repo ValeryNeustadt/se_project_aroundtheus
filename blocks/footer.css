@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-.footer_paragraph {
+.footer_copyright {
     font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -25,7 +25,7 @@
         width: 283px;
     }
 
-    .footer_paragraph {
+    .footer_copyright {
         font-size: 14px;
         line-height: 16.94px;
     }
