@@ -42,7 +42,7 @@
     margin: 0;
 }
 
-.info__addit-button {
+.info__edit-button {
     align-self:center;
     width: 24px;
     height: 24px;
@@ -137,7 +137,7 @@
         justify-self: center;
     }
 
-    .info__addit-button {
+    .info__edit-button {
         width: 18px;
         height: 18px;
         margin: 0;
