@@ -19,20 +19,20 @@
     justify-self: center;
 }
 
-.element__photo {
+.gellery__photo {
     width: 282px;
     height: 282px;
     margin: 0;
 }
 
-.element__header {
+.gellery__header {
     display: flex;
     justify-content: space-between;
     margin: auto 20px;
     align-items:flex-end;
 }
 
-.element__text {
+.gellery__text {
     font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -44,7 +44,7 @@
     overflow: hidden;
 }
 
-.element__button-like {
+.gellery__button-like {
     margin: 0;
 }
 
