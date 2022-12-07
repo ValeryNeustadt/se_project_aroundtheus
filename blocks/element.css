@@ -1,0 +1,40 @@
+.element {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 282px;
+    height: 361px;
+    margin: 0;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    justify-self: center;
+}
+
+.element__photo {
+    width: 282px;
+    height: 282px;
+    margin: 0;
+}
+
+.element__header {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 20px;
+    align-items:flex-end;
+}
+
+.element__text {
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29.05px;
+    color: #000000;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.element__button-like {
+    margin: 0;
+}
