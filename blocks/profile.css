@@ -31,7 +31,7 @@
     margin: 0;
 }
 
-.info__name {
+.profile__name {
     font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -42,7 +42,7 @@
     margin: 0;
 }
 
-.info__edit-button {
+.profile__edit-button {
     align-self:center;
     width: 24px;
     height: 24px;
@@ -81,7 +81,7 @@
     opacity: 60%;
 }
 
-.info__profession {
+.profile__profession {
     font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -122,12 +122,12 @@
         gap: 16px;
     }
 
-    .info__name {
+    .profile__name {
         font-size: 22px;
         line-height: 26.63px;
     }
 
-    .info__profession {
+    .profile__profession {
         text-align: center;
         font-size: 14px;
         line-height: 16.94px;
@@ -137,7 +137,7 @@
         justify-self: center;
     }
 
-    .info__edit-button {
+    .profile__edit-button {
         width: 18px;
         height: 18px;
         margin: 0;
