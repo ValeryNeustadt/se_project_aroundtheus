@@ -1,1 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;900&family=Noto+Serif:ital@0;1&display=swap');
+@font-face {
+  font-family: 'Inter';
+  src: url('Inter-Black.ttf') format('truetype');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('Inter-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('Inter-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
