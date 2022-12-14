@@ -37,4 +37,5 @@
 
 .element__button-like {
     margin: 0;
+    cursor: pointer;
 }

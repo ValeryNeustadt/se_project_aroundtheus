@@ -6,11 +6,6 @@
     align-items:center;
     background: #000;
     color: #fff;
-    padding: 45px 200px 60px 200px;
-}
-
-@media screen and (max-width: 320px) {
-    .header {
-        padding: 28px 19px 36px 19px;
-    }
+    padding: 45px 0 60px 0;
+    min-width: 282px;
 }
