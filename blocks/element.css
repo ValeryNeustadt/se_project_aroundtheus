@@ -2,8 +2,6 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    /* width: 282px;
-    height: 361px; */
     margin: 0;
     background-color: #FFFFFF;
     border-radius: 10px;
@@ -20,7 +18,6 @@
     display: flex;
     justify-content: space-between;
     margin: 0;
-    /* margin: auto 20px; */
     align-items: center;
     padding: 25px 20px ;
 
