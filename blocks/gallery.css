@@ -1,7 +1,6 @@
 .gallery__elements {
     display: grid;
     grid-template-columns: repeat(3, 282px);
-    grid-template-rows: repeat(auto, 1fr);
     grid-gap: 17px;
     margin: 0;
     padding: 51px 0 0 0;
@@ -12,14 +11,12 @@
 @media screen and (max-width: 880px) {
     .gallery__elements {
         grid-template-columns: repeat(2, 282px);
-        grid-template-rows: repeat(auto, 1fr);
     }
 }
 
 @media screen and (max-width: 581px) {
     .gallery__elements {
         grid-template-columns: repeat(1, 282px);
-        grid-template-rows: repeat(auto, 1fr);
         padding: 36px 0 0 0;
     }
 }

@@ -3,7 +3,7 @@
     justify-content: flex-start;
     padding: 0 0 41px 0;
     margin: 0;
-    border-bottom: 1px solid rgb(84,84,84, 0,7);
+    border-bottom: 1px solid rgb(84,84,84, 0.7);
     width: 880px;
 }
 
@@ -15,7 +15,6 @@
 @media screen and (max-width: 880px) {
     .header {
         width: 581px;
-
     }
 }
 
